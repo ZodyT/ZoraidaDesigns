@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ZoraidaDesigns.Models;
 
 namespace ZoraidaDesigns
 {
-    interface IProductRespository
+    public interface IProductRespository
     {
+        public IEnumerable<Product> GetAllProducts();
     }
 }
