@@ -8,7 +8,7 @@ using ZoraidaDesigns.Models;
 
 namespace ZoraidaDesigns
 {
-    public class ProductRepository : IProductRespository
+    public class ProductRepository : IProductRepository
     {
         private readonly IDbConnection _conn;
         public ProductRepository(IDbConnection conn)

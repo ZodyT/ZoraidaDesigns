@@ -6,7 +6,7 @@ using ZoraidaDesigns.Models;
 
 namespace ZoraidaDesigns
 {
-    public interface IProductRespository
+    public interface IProductRepository
     {
         public IEnumerable<Product> GetAllProducts();
     }
