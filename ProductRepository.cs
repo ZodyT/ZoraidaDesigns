@@ -18,7 +18,7 @@ namespace ZoraidaDesigns
 
         public IEnumerable<Product> GetAllProducts()
         {
-            return _conn.Query<Product>("Select * from glass_jewlery");
+            return _conn.Query<Product>("Select * from glass_jewlery;");
         }
     }
 }
